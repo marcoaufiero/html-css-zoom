@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,5 +8,60 @@
 
 a{
     text-decoration: none;
-    color: black
+    color: white;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* debug */
+
+.top-section{
+    background-color: grey;
+}
+
+.mid-section{
+    background-color: aquamarine;
+}
+
+.bot-section{
+    background-color: lightgrey;
+}
+
+/* fine debug */
+
+/* utility */
+
+.flex{
+    display: flex;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* top section */
+
+.top-section{
+    justify-content: flex-end;
+    color: white;
+    padding: 10px;
+}
+
+.top-section > a{
+    background-color: #4A4A4A;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+/* mid section */
+
+.mid-section{
+    flex-grow: 1;
 }
