@@ -37,6 +37,14 @@ body{
     display: flex;
 }
 
+.f-space-between{
+    justify-content: space-between;
+}
+
+.f-align-center{
+    align-items: center;
+}
+
 
 .container{
     width: 100vw;
@@ -45,8 +53,8 @@ body{
     flex-direction: column;
 }
 
-.container-80{
-    width: 80%;
+.container-90{
+    width: 90%;
     margin-inline: auto;
 }
 
@@ -76,7 +84,6 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
 }
 
 .card{
@@ -87,6 +94,7 @@ body{
 
 .card img{
     width: 100%;
+    height: 100%;
 }
 
 .user-name{
@@ -95,10 +103,39 @@ body{
     bottom: 20px;
     background-color: rgba( 255, 255, 255, 0.5);
     color: white;
+    padding: 5px 10px;
 }
 
 /* bot section */
 
 .bot-section{
+    justify-content: space-between;
     background-color: #222222;
+    color: white;
+}
+
+.nav-button{
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.nav-icon{
+    padding: 0 10px;
+}
+
+.nav-icon i{
+    font-size: 1.5rem;
+}
+
+.green-icon{
+    color: #4BC800;
+}
+
+.nav-right{
+    color: red;
+    background-color: #4A4A4A;
+}
+
+h4{
+    padding: 10px;
 }
