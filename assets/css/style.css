@@ -100,7 +100,7 @@ body{
 .user-name{
     position: absolute;
     left: 5px;
-    bottom: 20px;
+    bottom: 10px;
     background-color: rgba( 255, 255, 255, 0.5);
     color: white;
     padding: 5px 10px;
@@ -115,16 +115,17 @@ body{
 }
 
 .nav-button{
-    padding: 10px 5px;
+    height: 100%;
     text-align: center;
+    padding: 0 3px;
 }
 
 .nav-icon{
-    padding: 0 10px;
+    padding: 10px;
 }
 
 .nav-icon i{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .green-icon{
@@ -138,4 +139,28 @@ body{
 
 h4{
     padding: 10px;
+}
+
+.fa-angle-up{
+    padding: 3px;
+}
+
+/* hover */
+
+.nav-icon:hover{
+    cursor: pointer;
+    background-color: #4A4A4A;
+    color: #5693bb;
+}
+
+.fa-angle-up:hover{
+    cursor: pointer;
+    background-color: #4A4A4A;
+    border-radius: 50%;
+    color: #5693bb;
+}
+
+.nav-right:hover{
+    cursor: pointer;
+    opacity: 70%;
 }
