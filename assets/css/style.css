@@ -14,14 +14,15 @@ a{
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
 /* debug */
 
 .top-section{
-    background-color: grey;
+    background-color: black;
 }
 
 .mid-section{
-    background-color: aquamarine;
+    background-color: black;
 }
 
 .bot-section{
@@ -44,6 +45,11 @@ body{
     flex-direction: column;
 }
 
+.container-80{
+    width: 80%;
+    margin-inline: auto;
+}
+
 /* top section */
 
 .top-section{
@@ -64,4 +70,35 @@ body{
 
 .mid-section{
     flex-grow: 1;
+}
+
+.card-box{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.card{
+    flex-basis: calc( 100% / 7 );
+    position: relative;
+    padding: 5px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.user-name{
+    position: absolute;
+    left: 5px;
+    bottom: 20px;
+    background-color: rgba( 255, 255, 255, 0.5);
+    color: white;
+}
+
+/* bot section */
+
+.bot-section{
+    background-color: #222222;
 }
